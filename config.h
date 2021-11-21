@@ -7,6 +7,12 @@
  */
 static char *font = "Source Code Pro:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
+/* Spare fonts */
+static char *font2[] = {
+/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+	"Symbola:pixelsize=15:antialias=true:autohint=true"
+};
+
 
 /*
  * What program is execed by st depends of these precedence rules:
